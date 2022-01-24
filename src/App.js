@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+//import ClockComponent, {ClockClass, ClockComponentVariable, ClockComponentFunction} from "./ClockComponent/ClockComponent.tsx";
+import {ClockClass} from "./ClockComponent/ClockComponent.tsx";
 
 function App() {
   return (
@@ -15,8 +17,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React!
         </a>
+        <ClockClass interval="1000" />
       </header>
     </div>
   );
