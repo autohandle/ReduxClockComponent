@@ -1,4 +1,6 @@
-import React, {Component} from 'react';
+// ReduxClockComponent
+// https://github.com/autohandle/ReduxClockComponent.git
+// import React, {Component} from 'react';
 
 export type ClockComponentProps = {}
 
